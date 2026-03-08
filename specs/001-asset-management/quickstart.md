@@ -19,26 +19,26 @@
 # Azure SQL Database
 AZURE_SQL_DB_SERVER_NAME=argos-sql-server.database.windows.net
 AZURE_SQL_DB_USER_NAME=argosdmin
-AZURE_SQL_DB_PASSWORD=Dklim2026
+AZURE_SQL_DB_PASSWORD=<your_db_password>
 
 # Azure OpenAI
 AZURE_OPENAI_ENDPOINT=https://rs-prj-argos.openai.azure.com/openai/v1/
-AZURE_OPENAI_API_KEY=your_openai_api_key_here
+AZURE_OPENAI_API_KEY=<your_openai_api_key_here>
 AZURE_OPENAI_DEPLOYMENT=gpt-4.1
 AZURE_OPENAI_API_VERSION=2025-04-14
 
 # Azure AI Vision
 AZURE_AI_VISION_ENDPOINT=https://koreacentral.api.cognitive.microsoft.com/
-AZURE_AI_VISION_API_KEY=your_vision_api_key_here
+AZURE_AI_VISION_API_KEY=<your_vision_api_key_here>
 
 # Azure Blob Storage
 AZURE_STORAGE_ACCOUNT_NAME=argosstphotos
-AZURE_STORAGE_ACCOUNT_KEY=your_storage_account_key_here
-AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=argosstphotos;AccountKey=your_storage_account_key_here;EndpointSuffix=core.windows.net
+AZURE_STORAGE_ACCOUNT_KEY=<your_storage_account_key_here>
+AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=argosstphotos;AccountKey=<your_storage_account_key_here>;EndpointSuffix=core.windows.net
 AZURE_STORAGE_CONTAINER_NAME=asset-photos
 
 # JWT Config
-JWT_SECRET_KEY=your-secret-key-change-in-production
+JWT_SECRET_KEY=<your-secret-key-change-in-production>
 JWT_ALGORITHM=HS256
 JWT_ACCESS_TOKEN_EXPIRE_MINUTES=480
 ```
