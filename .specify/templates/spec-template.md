@@ -113,3 +113,5 @@
 - **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
 - **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
 - **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+- **SC-005**: [Performance, e.g., "API response time under 200ms and optimal initial load time"]
+- **SC-006**: [UX Consistency, e.g., "New interface 100% utilizes existing design system components"]

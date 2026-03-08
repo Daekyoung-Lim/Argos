@@ -31,7 +31,10 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Code Quality**: 단일 책임 원칙 준수, 정적 분석 도구(Lint 등) 적용 여부 확인
+- [ ] **Testing Standards**: 단위 테스트 작성, 핵심 로직 커버리지 80% 이상, 통합 테스트 검증
+- [ ] **UX Consistency**: 공통 디자인 시스템 제약조건 반영 및 일관된 상태 피드백 설계 확인
+- [ ] **Performance Requirements**: 성능 예산(초기 로딩 속도, 응답시간 200ms 이하) 고려 여부 확인
 
 ## Project Structure
 
